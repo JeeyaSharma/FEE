@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <form action="">
+        <center>
+            <h1>Input Field</h1>
+            <input type="text">
+            <br><br>
+            <input type="password">
+            <br><br>
+            <input type="date">
+            <br><br>
+            <input type="time">
+            <br><br>
+            <input type="color">
+            <br><br>
+            <input type="number">
+            <br><br><hr>
+            <h1>Placeholder, labels and button</h1>
+            <!-- labels are basically used to give captions -->
+            <label for="username">Username: </label>
+            <input type="text" id="username" placeholder="Enter Username">
+            <!-- input id and label "for" should be same to sync them together -->
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <br><br>
+            <button type="submit">SUBMIT</button>
+            <br><hr>
+            <h1>Checkbox</h1>
+            <label for="age">Age</label>
+            <input type="checkbox" id="age">
+            <br>
+            <label for="age">Age</label>
+            <input type="checkbox" id="age" checked>
+            <br><br><hr>
+            <h1>Radio Buttons</h1>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <br><br><hr>
+            <h1>Range</h1>
+            <label for="volume">Volume</label>
+            <input type="range" id="volume" min="0" max="100" value="70" step="5">
+            <br><br><hr>
+            <h1>Dropdown</h1>
+            <select name="languages" id="languages">
+                <option value="C">C</option>
+                <option value="C++" selected>C++</option>
+                <option value="Python">Python</option>
+            </select>
+            <br><br><hr>
+            <h1>Textarea</h1>
+            <label for="Address">Address</label>
+            <textarea placeholder="Enter address here" id="address">
+        </center>
+    </form>
+</body>
+</html>
