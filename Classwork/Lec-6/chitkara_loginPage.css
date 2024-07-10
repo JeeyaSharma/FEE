@@ -42,12 +42,14 @@ input[type=text]
     border: 1px solid #7f9db9;
     height: 22px;
     width: 220px;
+    padding-left: 2px;
 }
 input[type=password]
 {
     border: 1px solid #7f9db9;
     height: 22px;
     width: 220px;
+    padding-left: 2px;
 }
 #session
 {
