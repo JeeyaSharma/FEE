@@ -1,0 +1,56 @@
+/* text-align: inherit & justify is important */
+/* .a1
+{
+    text-align: center;
+} */
+
+h1
+{
+    text-align: inherit;
+    /* text-align: end; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+}
+
+p
+{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Text Decoration */
+a
+{
+    font-size: 40px;
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+    text-decoration-color: red;
+    text-decoration-style: double;
+    /* text-decoration: overline; */
+    /* text-decoration: none; */
+}
+
+/* Text Transform */
+h1
+{
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}
+
+/* Other tags */
+h4
+{
+    /* word-spacing: 10px; */
+    letter-spacing: 5px;
+    /* text-indent: 20px; */
+}
+
+/* Text Shadow */
+h3
+{
+    font-size: 40px;
+    text-shadow: 4px 4px 15px blue;
+    color: transparent;
+}

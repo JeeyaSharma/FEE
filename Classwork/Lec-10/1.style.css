@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    border: 0;
+}
+
+body
+{
+    border: 5px solid black;
+    margin: 20px 10px 0px;
+}
+
+div
+{
+    margin: 20px 30px 10px;
+    /* IN THIS, FIRST VALUE IS FOR TOP AND 2ND IS FOR RIGHT-LEFT AND 3RD IS BOTTOM......SAME GOES FOR PADDING VALUES */
+    padding: 20px 30px 15px;
+    border: 2px solid red;
+}
