@@ -1,0 +1,101 @@
+nav
+{
+    width: 300px;
+    height: 731px;
+    background-color: #171b1f;
+    position: fixed;
+}
+nav a
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+nav a:hover
+{
+    color: white;
+    text-decoration: none
+}
+.image img
+{
+    border-radius: 150px;
+}
+.content
+{
+    margin-left: 350px;
+}
+.profile_content
+{
+    background-image: url('Images/background_image.jpg');
+    height: 731px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -100px;
+    color: #fff;
+    /* position: absolute; */
+}
+.profile_content h3
+{
+    padding-top: 300px;
+    padding-left: 480px;
+}
+.profile_content p
+{
+    padding-left: 270px;
+}
+.education_content
+{
+    margin-top: 200px;
+    margin-left: -30px;
+}
+.education_cards
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.tech
+{
+    margin-top: 200px;
+    margin-left: -30px;
+}
+.tech_cards
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects_content
+{
+    margin-top: 200px;
+}
+.projects h4
+{
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+.projects_cards_1
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -30px;
+}
+.projects_cards_2
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-left: -30px;
+}
+.contact_content{
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+.contactme_cards
+{
+    display: flex;
+    justify-content: space-evenly;
+}
