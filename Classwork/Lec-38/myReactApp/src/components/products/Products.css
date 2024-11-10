@@ -1,0 +1,13 @@
+.products{
+    width: 360px;
+    border: 4px solid #313131;
+    box-shadow: 0 4px 8px 0 #aeaeae;
+}
+.products img{
+    width: 360px;
+    height: 240px;
+}
+.products h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
