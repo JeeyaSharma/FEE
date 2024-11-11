@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Bill Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div class="calculator-container">
+        <h1>Bill Calculator</h1>
+        <div class="input-group">
+            <label for="item-cost">Item Cost ($):</label>
+            <input type="number" id="item-cost"  required>
+        </div>
+
+        <div class="input-group">
+            <label for="tax-rate">Tax Rate (%)</label>
+            <input type="number" id="tax-rate"  required>
+        </div>
+
+        <div class="input-group">
+            <label for="tip-percentage">Tip Percentage (%)</label>
+            <input type="number" id="tip-percentage"  required>
+        </div>
+
+        <div class="input-group">
+            <label for="discount">Discount ($) - if applicable</label>
+            <input type="number" id="discount" >
+        </div>
+
+        <button id="calculate-btn">Total</button>
+
+        <div id="output">
+            <p id="tax-amount"></p>
+            <p id="tip-amount"></p>
+            <p id="discount-amount"></p>
+            <p id="total-amount"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
